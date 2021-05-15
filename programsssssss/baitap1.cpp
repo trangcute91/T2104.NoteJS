@@ -14,7 +14,7 @@ int main(){
 			printf("so nho nhat %d",c);
 		}
 	}else{
-		if(b,c){
+		if(b<c){
 			printf("so nho nhat %d",b);
 		}else{
 			printf("so nho nhat %d",c);
