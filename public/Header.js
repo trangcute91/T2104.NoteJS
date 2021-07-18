@@ -2,7 +2,7 @@ function header() {
     var ct = " <div class=\"header_con\">\n" +
         "                <div class=\"logo\">\n" +
         "                    <h1>\n" +
-        "                        <a href=\"#\">\n" +
+        "                        <a href=\"http://localhost:5000/home\">\n" +
         "                            <img src=\"images/logo.webp\" height=\"120\" width=\"108\"/>\n" +
         "                        </a>\n" +
         "                    </h1>\n" +
@@ -27,7 +27,7 @@ function header() {
         "                                 035.805.4499\n" +
         "                             </span>\n" +
         "                        </a>\n" +
-        "                        <a href=\"#\">\n" +
+        "                        <a href=\"http://localhost:5000/map\">\n" +
         "                            <div class=\"fa-con\">\n" +
         "                                <img src=\"images/iconfinder_2703084_bank_banking_payment_icon_20px.png\" height=\"20\"\n" +
         "                                     width=\"20\"/>\n" +
@@ -36,7 +36,7 @@ function header() {
         "                                 Restaurant System\n" +
         "                             </span>\n" +
         "                        </a>\n" +
-        "                        <a href=\"#\">\n" +
+        "                        <a href=\"http://localhost:5000/account\">\n" +
         "                            <div class=\"taikhoan\">\n" +
         "                                <img src=\"images/iconfinder_2703063_user_man_person_icon_20px.png\" height=\"20\"\n" +
         "                                     width=\"20\"/>\n" +

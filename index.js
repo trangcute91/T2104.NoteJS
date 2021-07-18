@@ -114,6 +114,12 @@ app.get("/buynow32",function (req,res) {
 app.get("/buynow33",function (req,res) {
     res.sendFile(__dirname+"/public/buynow33.html")
 });
+app.get("/account",function (req,res) {
+    res.sendFile(__dirname+"/public/Account.html")
+});
+app.get("/map",function (req,res) {
+    res.sendFile(__dirname+"/public/Map.html")
+});
 
 
 //--------- QUANG ANH-----------//
