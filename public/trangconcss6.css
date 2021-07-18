@@ -1,17 +1,17 @@
-/*--------------------PHẦN HEADER-------------------*/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #f8f2e8;
+}
 .container-1{
-    margin-top: -20px;
     margin-left: auto;
     margin-right: auto;
     float: none;
     width: 100%;
-    height: 470px;
-    background-color: #f8f2e8;
+    height: 100%;
 }
 .container-header{
     margin-left: auto;
@@ -70,14 +70,23 @@
     margin-right: 10px;
     margin-top: -35px;
     float: left;
-
 }
 .fa-phone img{
-    margin-top: -5px;
+    position: relative;
+    top: -40px;
+}
+.fa-phone img{
+    position: relative;
+    top: -40px;
 }
 .phone{
     position: relative;
     top: -30px;
+}
+.phone img{
+    height: 20px;
+    width: 20px;
+    aspect-ratio: auto 20 / 20;
 }
 .link-con a{
     text-decoration: none;
@@ -91,17 +100,14 @@
     border-radius: 100%;
     text-align: center;
     line-height: 42px;
-    margin-left: 26%;
-    margin-top: -60px;
-}
-.fa-con img{
-    margin-top: -8px;
+    margin-left: 25%;
+    margin-top: -58px;
 }
 .fa-con1{
     font-family: Roboto;
-    margin-left: 230px;
+    margin-left: 25%;
     position: relative;
-    top: -32px;
+    top: -30px;
 }
 .taikhoan{
     background-color: white;
@@ -111,16 +117,13 @@
     text-align: center;
     line-height: 42px;
     margin-left: 59%;
-    margin-top: -63px;
-}
-.taikhoan img{
-    margin-top: -7px;
+    margin-top: -58px;
 }
 .taikoan1{
     font-family: Roboto;
     margin-left: 59%;
     position: relative;
-    top: -32px;
+    top: -30px;
 }
 .buy{
     background-color: white;
@@ -130,19 +133,13 @@
     text-align: center;
     line-height: 42px;
     margin-left: 81%;
-    margin-top: -63px;
-}
-.buy img{
-    margin-top: -7px;
+    margin-top: -58px;
 }
 .buy1{
     margin-left: 81%;
     position: relative;
-    top: -31px;
+    top: -28px;
 }
-
-
-
 .toplink{
     height: 50px ;
     width: 100%;
@@ -153,6 +150,7 @@
     backface-visibility: hidden;
     top: -1px ;
     text-align: center;
+
 }
 .nav > li{
     display: inline-block;
@@ -163,7 +161,6 @@
     position: relative;
 }
 .nav li a{
-    font-size: 16px;
     text-decoration: none;
     color: #ffffff;
     line-height: 50px ;
@@ -202,7 +199,7 @@
 .banner{
     height: 300px;
     padding: 50px 0;
-    background: url("//theme.hstatic.net/1000313040/1000406925/14/breadcrumb_bg.png?v=1719");
+    background: url(//theme.hstatic.net/1000313040/1000406925/14/breadcrumb_bg.png?v=1719);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -228,66 +225,73 @@
     z-index: 9;
     width: 100%;
 }
-.banner-tieude h1{
-    font-family: Roboto;
-    font-size: 50px;
+#cap h1{
     line-height: 300px;
-    text-align: center;
-    color: white;
-}
-/*--------------------PHẦN MAIN-------------------*/
-.infor2{
-    font-size: 16px;
-}
-.main{
-    width: 100%;
-    height: 150px;
-}
-.infor31 button{
-    width: 200px;
-    height: 50px;
-    text-align: center;
-    color: white;
-    background-color: #4c1a44;
-}
-.tabmenu ul{
-    background-color: brown;
-    margin-top: 15px;
-}
-.tab-content{
-    height: 400px;
-}
-.form-container{
-    background-color: #aab3c4;
-    height: 320px;
-}
-.form1{
-    text-align: center;
-    background-color: brown;
-    line-height: 2px;
-    width: 277px;
-    height: 29px;
-    position: relative;
-    right: 15px;
-}
-.information{
-    text-align: center;
-    color: white;
-    font-size: 16px;
-    position: relative;
-    top: 15px;
-}
-.detail{
-    margin-top: 8px;
-    line-height: 23px;
-}
-.sub{
-    float: right;
-}
-/*--------------------PHẦN FOOTER-------------------*/
-.footer1{
-    margin-top: 30px;
+    font-size: 40px;
+    font-family: Roboto;
+    color: #ffffff;
     float: left;
+    margin-top: 20px;
+    margin-left: 47%;
+}
+/*phần nội dung */
+.inner{
+    width: 900px;
+    height: 110%;
+    background-color: #ffffff;
+    float: left;
+    margin-top: 20px;
+    margin-left: 330px;
+}
+.inner h2{
+    font-family: Roboto;
+    float: left;
+    margin: 20px;
+}
+.inner .tieude{
+    font-family: Roboto;
+    color: #0f75bc;
+    text-indent: 20px;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    float: left;
+    margin: 20px;
+}
+.inner p{
+    font-size: 14px;
+    text-indent: 20px;
+    text-align: justify;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.inner .chuthich{
+    width: 60%;
+    height: 10%;
+    float: left;
+    margin-top: 15px;
+    margin-left: 185px;
+}
+.giamgia{
+    float: left;
+    margin-top: 40px;
+    margin-left: -380px;
+}
+.giamgia li{
+    margin: 30px;
+}
+/* phần cuối*/
+.footer1{
+    margin-top: 1980px;
+    width: 100% ;
+    height: 430px;
+    background-image: url("https://theme.hstatic.net/1000313040/1000406925/14/footer-bg.png?v=1719");
+}
+.footer1\.1{
+    margin-top: 2110px;
     width: 100% ;
     height: 430px;
     background-image: url("https://theme.hstatic.net/1000313040/1000406925/14/footer-bg.png?v=1719");
@@ -326,7 +330,7 @@
 }
 .sach3{
     margin-left: 300px;
-    margin-top: -210px;
+    margin-top: -180px;
 }
 .sach4{
     font-size: 23px;
@@ -344,7 +348,7 @@
 }
 .footer2{
     width: 100%;
-    height: 30PX;
+    height: 30px;
     background-color: #500d0d;
 }
 .link-footer{
@@ -358,9 +362,76 @@
     margin-left: 20px;
 }
 .footer2{
-    float: left;
     font-family: Roboto;
     color: white;
     text-align: center;
     line-height: 30px;
+}
+#back-to-top {
+    display: none;
+    border-radius: 5px;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    color: #fff;
+    background: #3d1a1a;
+    font-size: 36px;
+    position: fixed;
+    bottom: 35px;
+    right: 15px;
+    opacity: 0.8;
+    cursor: pointer;
+    z-index: 999;
+}
+.fan1 img{
+    margin-left: 8px;
+}
+/* phần rate sao */
+#day{
+    color: #a3a3a3;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fan img{
+    margin-left: 8px;
+    margin-top: 3000px;
+}
+div.stars {
+    width: 270px;
+    float: left;
+    position: relative;
+    left: -200px;
+    margin-top: 15px;
+    display: inline-block;
+}
+input.star { display: none;
+}
+
+label.star {
+    float: right;
+    padding: 10px;
+    font-size: 36px;
+    color: #444;
+    transition: all .2s;
+}
+input.star:checked ~ label.star:before {
+    content: '\f005';
+    color: #FD4;
+    transition: all .25s;
+}
+input.star-5:checked ~ label.star:before {
+    color: #FE7;
+    text-shadow: 0 0 20px #952;
+}
+input.star-1:checked ~ label.star:before { color: #F62; }
+label.star:hover { transform: rotate(-15deg) scale(1.3); }
+label.star:before {
+    content: '\f006';
+    font-family: FontAwesome;
 }

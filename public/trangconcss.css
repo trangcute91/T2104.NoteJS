@@ -411,7 +411,8 @@ div.stars {
     margin-top: 15px;
     display: inline-block;
 }
-input.star { display: none; }
+input.star { display: none;
+}
 
 label.star {
     float: right;
