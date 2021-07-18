@@ -1,0 +1,21 @@
+.icon{
+    margin-top: 15px;
+}
+.section{
+    height: 1000px;
+}
+.infor1{
+    text-align: center;
+}
+.final{
+    float: right;
+    position: relative;
+    top: 50px;
+}
+.footer{
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 20px;
+    color: blue;
+}
