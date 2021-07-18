@@ -393,5 +393,9 @@ body{
     cursor: pointer;
     z-index: 999;
 }
+#back-to-top img{
+    float: left;
+    margin: 8px;
+}
 
 
