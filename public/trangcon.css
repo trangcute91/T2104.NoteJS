@@ -2,12 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Roboto;
 }
 body{
-    min-width:1000px;
-    width: 100%;
     background-color:#f8f2e8;
-    font-family: Roboto;
 }
 .main{
     width: 100%;
@@ -181,7 +179,7 @@ body{
 .banner{
     height: 300px;
     padding: 50px 0;
-    background: url(//theme.hstatic.net/1000313040/1000406925/14/breadcrumb_bg.png?v=1719);
+    background: url("//theme.hstatic.net/1000313040/1000406925/14/breadcrumb_bg.png?v=1719");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -214,99 +212,116 @@ body{
     text-align: center;
     color: white;
 }
-/*--------------------PHẦN MAIN-------------------*/
-
-.main{
+main{
+    font-family: Roboto;
+    margin-top: 50px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    float: none;
+}
+.bl{
+    background-color:white;
+    float: left;
+    width: 40%;
+    height:300px;
+    border:10px solid white;
+    border-radius: 10px;
+}
+.bl img{
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
     width: 100%;
-    height: 930px;
+    height:280px;
 }
-.slider{
-    background-image: url("https://goldenapple.com.vn/wp-content/themes/goldenapple/images/bg-separe.png");
-    height: 19px;
-    width: 994px;
+.bl:hover{
+    transform:scale(1.2);
+}
+.br{
+    position: relative;
+    line-height: 20px;
+    padding: 20px;
+    border: 2px solid snow;
+    border-radius: 10px;
+    background-color:white;
+    float: right;
+    width:55%;
+}
+.conten h2{
+    color: black;
+    font-size: 28px;
+}
+.conten h3{
     margin-top: 20px;
-    margin-left: 320px;
 }
-.videos{
-    width: 1080px;
-    height: 1350px;
-    margin-top: 20px;
-    margin-left: 220px;
+.checkbox{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
 }
-.video{
-    width: 740px;
-    height: 1350px;
+.check{
+    font-weight: 400;
+    line-height: 2px;
+    margin: 10px;
+    height: 15px;
+    width: 130px;
+    float: left;
+    border: 1px solid black;
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
 }
-.video1{
-    margin-left: 30px;
+.sl{
+    position: relative;
+    float: left;
+    margin: 10px;
+    margin-top: 50px;
+    margin-left: -310px;
+    padding: 10px;
+}
+.sl input{
+    float: left;
+    text-align: center;
+    width: 80px;
+    height: 40px;
+}
+.sb{
+    margin-left: 100px;
+    text-align: center;
+    float: left;
+    height: 40px;
+    width: 170px;
+    background-color:#582727;
+    line-height: 35px;
+    position: absolute;
+}
+.sb a {
+    padding: 20px;
+    color: snow;
+    text-decoration: none;
+    font-size: 30px;
+}
+.bot{
+    line-height:30px;
     margin-top: 30px;
     float: left;
-    width: 326px;
-    height: 258px;
-    background-color: black;
-}
-.video1 a{
-    text-decoration: none;
-}
-.ten{
-    text-align: center;
-    margin-top: 10px;
-    color: #c0c906;
-}
-.library-tong{
-    position: sticky;
-    top: 50px;
-}
-.library{
-    width: 331px;
-    height: 120px;
-    margin-left: 750px;
-    margin-top: -1323px;
-}
-.box1{
     width: 100%;
-    height: 40px;
-    background-color: white;
+    font-weight: 700;
+    background-color:white;
+    border: 1px solid snow;
+    border-radius: 10px;
+    padding: 40px;
 }
-.box1 h2{
-    color: black;
-    font-family: Roboto;
-    text-align: center;
-    line-height: 40px;
-    background-color: #763f3f;
-}
-.box2{
-    width: 100%;
-    height: 100%;
-    background-color: white;
-}
-.box3{
-    width: 100%;
-    height: 40px;
-    border-bottom: 1px solid #e8e7e7;
-    text-align: center;
-}
-.box3 a{
-    text-decoration: none;
-}
-.box3 .box3co{
-    color: #c0c906;
-}
-.box3 h3{
-    color: black;
-    line-height: 40px;
-}
-.box3 > a:hover > h3{
-    color: #c0c906;
-}
-
-
-
-
-
-
-/*--------------------PHẦN FOOTER------------------*/
 .footer1{
+    margin-top: 30px;
+    float: left;
     width: 100% ;
     height: 430px;
     background-image: url("https://theme.hstatic.net/1000313040/1000406925/14/footer-bg.png?v=1719");
@@ -345,7 +360,7 @@ body{
 }
 .sach3{
     margin-left: 300px;
-    margin-top: -210px;
+    margin-top: -180px;
 }
 .sach4{
     font-size: 23px;
@@ -377,6 +392,7 @@ body{
     margin-left: 20px;
 }
 .footer2{
+    float: left;
     font-family: Roboto;
     color: white;
     text-align: center;
