@@ -1,0 +1,384 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width:1000px;
+    width: 100%;
+    background-color:#f8f2e8;
+    font-family: Roboto;
+}
+.main{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    height: 120px;
+    background: rgba(74, 29, 34, 0.9);
+}
+.header_con{
+
+    width: 75% ;
+    height: 100%;
+    margin: 0 12%;
+}
+.search{
+    margin-left: 11%;
+    margin-top: -8%;
+}
+.search input{
+    width: 23%;
+    height: 37px;
+    border-radius: 3px;
+}
+.search1{
+    width: 37px;
+    height: 37px;
+    background-color: #4c2222;
+    margin-left: 22.8%;
+    margin-top: -3.6%;
+    border-radius: 3px;
+}
+.search1 button{
+    margin-left: 2px;
+    margin-top: 0px;
+}
+.search-icon{
+    width: 37px ;
+    height: 37px ;
+    background-color: #552525;
+    border-radius: 3px;
+}
+.link{
+    margin-left: 39%;
+
+}
+.fa-phone{
+    background-color: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 42px;
+    margin-right: 10px;
+    margin-top: -35px;
+    float: left;
+
+}
+.phone{
+    position: relative;
+    top: -30px;
+}
+.link-con a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.fa-con{
+    background-color: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 42px;
+    margin-left: 25%;
+    margin-top: -58px;
+}
+.fa-con1{
+    font-family: Roboto;
+    margin-left: 25%;
+    position: relative;
+    top: -30px;
+}
+.taikhoan{
+    background-color: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 42px;
+    margin-left: 59%;
+    margin-top: -58px;
+}
+.taikoan1{
+    font-family: Roboto;
+    margin-left: 59%;
+    position: relative;
+    top: -30px;
+}
+.buy{
+    float: left;
+    margin-left:80%;
+    margin-top: -58px;
+    background-color: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 42px;
+}
+.buy1{
+    position: relative;
+    top:-47px;
+    margin-left:87%;
+}
+.toplink{
+    height: 50px ;
+    width: 100%;
+    background-color: rgba(74, 29, 34, 0.9);
+    border: 1px solid #4a1d22;
+    position: sticky;
+    z-index: 1000;
+    backface-visibility: hidden;
+    top: -1px ;
+    text-align: center;
+}
+.nav > li{
+    display: inline-block;
+}
+.nav li{
+    font-family:Roboto;
+    list-style: none;
+    position: relative;
+}
+.nav li a{
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 50px ;
+    padding: 0 34px ;
+    display: block;
+
+}
+.nav li:hover .subnav{
+    display: block;
+}
+.nav > li:hover > a{
+    color: #950000;
+    background-color: #ffffff;
+}
+.nav .subnav{
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8) ;
+}
+.nav .subnav a{
+    color: #582727;
+    padding: 0 30px;
+    line-height: 38px ;
+}
+.nav .nav-arrow-down{
+    font-size: 13px;
+}
+
+.nav .subnav li:hover{
+    background-color: #763f3f;
+}
+.nav .subnav li a:hover{
+    color: white;
+}
+.banner{
+    height: 300px;
+    padding: 50px 0;
+    background: url(//theme.hstatic.net/1000313040/1000406925/14/breadcrumb_bg.png?v=1719);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.banner1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.banner2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 9;
+    width: 100%;
+}
+.banner-tieude h1{
+    font-family: Roboto;
+    font-size: 50px;
+    line-height: 300px;
+    text-align: center;
+    color: white;
+}
+/*--------------------PHẦN MAIN-------------------*/
+
+.main{
+    width: 100%;
+    height: 1700px;
+}
+.slider{
+    background-image: url("https://goldenapple.com.vn/wp-content/themes/goldenapple/images/bg-separe.png");
+    height: 19px;
+    width: 994px;
+    margin-top: 20px;
+    margin-left: 320px;
+}
+.videos{
+    width: 1080px;
+    height: 1450px;
+    margin-top: 20px;
+    margin-left: 220px;
+}
+.video{
+    width: 740px;
+    height: 1500px;
+}
+.video1{
+    margin-left: 30px;
+    margin-top: 30px;
+    float: left;
+    width: 326px;
+    height: 258px;
+    background-color: black;
+}
+.video1 a{
+    text-decoration: none;
+}
+.ten{
+    text-align: center;
+    margin-top: 10px;
+    color: #c0c906;
+}
+.library-tong{
+    position: sticky;
+    top: 50px;
+}
+.library{
+    width: 331px;
+    height: 120px;
+    margin-left: 750px;
+    margin-top: -1500px;
+}
+.box1{
+    width: 100%;
+    height: 40px;
+    background-color: #763f3f;
+}
+.box1 h2{
+    color: white;
+    font-family: Roboto;
+    text-align: center;
+    line-height: 40px;
+}
+.box2{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.box3{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #e8e7e7;
+    text-align: center;
+}
+.box3 a{
+    text-decoration: none;
+}
+.box3 h3{
+    color: black;
+    line-height: 40px;
+}
+.box3 > a:hover > h3{
+    color: #c0c906;
+}
+
+
+
+
+
+
+
+
+
+
+/*--------------------PHẦN FOOTER------------------*/
+.footer1{
+    width: 100% ;
+    height: 430px;
+    background-image: url("https://theme.hstatic.net/1000313040/1000406925/14/footer-bg.png?v=1719");
+}
+.footer3{
+    width: 100%;
+    height: 430px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer3 img{
+    margin-top: 50px;
+    margin-left: 60px ;
+}
+.footer4{
+    font-family: Roboto;
+    color: white;
+    margin-left: 210px;
+
+}
+.footer4 ul{
+    margin-left: -160px;
+}
+.chinh{
+    margin-left: 200px;
+    margin-top: -225px ;
+}
+.sach{
+    font-size: 23px;
+}
+.sach2{
+    margin-top: 20px;
+}
+.chinh p{
+    margin-top: 10px;
+}
+.sach3{
+    margin-left: 300px;
+    margin-top: -210px;
+}
+.sach4{
+    font-size: 23px;
+}
+.sach5{
+    margin-top: 20px;
+}
+.sach6{
+    font-size: 21px;
+    margin-left: 340px;
+    margin-top: -200px;
+}
+.sach7 img{
+    margin-left: 350px;
+}
+.footer2{
+    width: 100%;
+    height: 30PX;
+    background-color: #500d0d;
+}
+.link-footer{
+    width: 230px;
+    float: left;
+    margin-left: 650px;
+    margin-top: -150px ;
+}
+.txt{
+    float: right;
+    margin-left: 20px;
+}
+.footer2{
+    font-family: Roboto;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
