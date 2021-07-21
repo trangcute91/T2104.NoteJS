@@ -284,7 +284,7 @@
                             </div>
                         </div>
                     </span></a></div>
-                    <div class="see"><a href="#">
+                    <div class="see"><a href="/cheatcake">
                         <b>SEE MORE</b>
                     </a></div>
                     <!--------------------------- GATEAUX CREAM------------------------------>
@@ -591,6 +591,32 @@
                     </div>
                 </a></div>
             </div>
+<!--------------------Messenger-------------------->
+            <button class="nut-mo-chatbox" onclick="moForm()">
+                <img src="images/brand_facebook_messenger_icon_157342 (1).png" height="64" width="64"/>
+            </button>
+            <div class="Chatbox" id="myForm">
+                <form action="" class="form-container">
+                    <h1>Anh Hòa Bakery</h1>
+
+                    <label for="msg"><b>Message</b></label>
+                    <textarea placeholder="Please write a message.." name="msg" required></textarea>
+
+                    <button type="submit" class="btn">Send</button>
+                    <button type="button" class="btn nut-dong-chatbox" onclick="dongForm()">Closed</button>
+                </form>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
         </div>
     </div>
     <!-------------------FOOTER-------------------->
@@ -612,6 +638,14 @@
     $('.carousel').carousel({
         interval: 2500
     })
+    /*Hàm Mở Form*/
+    function moForm() {
+        document.getElementById("myForm").style.display = "block";
+    }
+    /*Hàm Đóng Form*/
+    function dongForm() {
+        document.getElementById("myForm").style.display = "none";
+    }
 </script>
 </body>
 </html>
