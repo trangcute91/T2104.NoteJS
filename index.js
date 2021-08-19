@@ -396,4 +396,7 @@ app.get("/litternews8",function (req,res) {
 });
 app.get("/litternews9",function (req,res) {
     res.sendFile(__dirname+"/public/trangcon9.html")
+
 });
+
+
