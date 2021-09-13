@@ -46,31 +46,14 @@
     <div class="album row">
         <% for(var i=0;i<product.length;i++){%>
         <div class="content col-md-3">
-            <a>
+            <a href="/chi-tiet?id=<%=product[i].id %>">
                 <img src="<%= product[i}.image %>">
                 <p><% product[i].name%></p>
             </a>
         </div>
        <% } %>
 
-        <div class="content col-md-3">
-            <a>
-                <img src="fileams6/anh1.jpg">
-                <p>Tiểu sử ca sĩ Chi Dân</p>
-            </a>
-        </div>
-        <div class="content col-md-3">
-            <a>
-                <img src="fileams6/anh1.jpg">
-                <p>Tiểu sử ca sĩ Chi Dân</p>
-            </a>
-        </div>
-        <div class="content col-md-3">
-            <a>
-                <img src="fileams6/anh1.jpg">
-                <p>Tiểu sử ca sĩ Chi Dân</p>
-            </a>
-        </div>
+
     </div>
     <div class="pade row">
         <div class="1 col-md-2"><a href="#"><</a></div>
